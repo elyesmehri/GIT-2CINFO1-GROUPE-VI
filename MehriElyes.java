@@ -8,17 +8,6 @@ function moyenneTableau(tableau) {
     return tableau.length === 0 ? 0 : sommeTableau(tableau) / tableau.length;
 }
 
-// Méthode 3 : Calculer la factorielle d’un nombre.
-function factorielle(n) {
-    if (n < 0) return -1;
-    if (n === 0) return 1;
-    return n * factorielle(n - 1);
-}
-
-// Méthode 4 : Vérifier si un nombre est pair.
-function estPair(n) {
-    return n % 2 === 0;
-}
 
 // Méthode 5 : Vérifier si un nombre est premier.
 function estPremier(n) {
